@@ -1,0 +1,35 @@
+.chessboard{
+    display:flex; 
+    align-items:center;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+   
+}
+
+.gray,.black{ 
+    width:5vw;
+    height:5vw;
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    font-size:2vw;
+}
+
+.gray{background-color: darkgray;
+        }
+
+.black{background-color: grey;}
+
+
+.chessboard-white{color:white;
+    display:flex; 
+    align-items:center;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    
+}
+
+
